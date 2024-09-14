@@ -1,0 +1,365 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+nav img{
+    width: 120px;
+    height: 130px;
+    margin-top: 1%;
+    margin-left: -5%;
+}
+body{
+    background: rgb(22, 7, 53);
+    font-family: 'Poppins' sans-serif;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+      background: #008080;
+    
+}
+.header nav{
+    width: 85%;
+    display: flex;
+    margin:auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header nav ul{
+    display: flex;
+}
+.header nav li{
+    list-style: none;
+    margin: 0 5px;
+}
+.header nav li a{
+    text-decoration: none;
+    padding: 0.2rem 1rem;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    color: whitesmoke;
+    margin-top: 10px;
+    
+   
+}
+.header nav li a::before{
+    content: 100%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    
+}
+.header nav li a:hover{
+    background: rgb(22, 7, 53); 
+    border-radius: 20px;
+}
+.header .main{
+    text-align: center;
+}
+.header .main h1{
+    font-size: 2.2rem;
+    font-family: 'Bodoni Moda', serif;
+    font-style: italic;
+    margin-bottom: 1.2rem;
+    color: whitesmoke;
+}
+.header .main a{
+    text-decoration: none;
+    width: 350px;
+    font-size: 15px;
+    font-weight: bold;
+    color: whitesmoke;
+    padding: 0.5rem 1rem;
+    background-color: rgb(22, 7, 53); 
+    border: 2px solid rgb(22, 7, 53);
+}
+.header .main a:hover{
+    background: whitesmoke;
+    color: rgb(22, 7, 53);
+    border: none;
+}
+svg{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 3;
+}
+.header .right-box{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.header .right-box img{
+    width: 57%;
+    margin-bottom: 23%;
+    padding-right: 16px;
+    margin-right: 15px;
+    
+    
+}
+  /*-------about-------*/
+.about-us h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+.about-us p{
+    font-family: cursive;
+    color: whitesmoke;
+
+    text-align: center;
+    font-size: 15px;
+    
+}
+  /*-------facilities-------*/
+  .facilities{
+    padding: 5%;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+  .facilities h2{
+    font-size: 65px;
+    font-family :Lucida Handwriting;
+    color: whitesmoke;
+  }
+  
+.facilities .row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+.facilities .col-1{
+    flex-basis: 29%;
+    background: whitesmoke;
+    border-radius: 10px;
+    margin-bottom: 4px;
+    box-shadow:15px 15px 10px lightblue;
+    
+    
+
+}
+
+.facilities .col-1 .heading{
+    border-radius: 10px;
+    padding: 1.5rem 0;
+    background-color:  rgb(158, 243, 46);
+    color: brown;
+    font-family: fantasy;
+    font-style: 900;
+
+}
+.facilities .col-1 .list{
+    margin-top: 10px;
+    padding: 1rem;
+
+}
+.facilities .col-1 li{
+    list-style:square;
+    text-align: left;
+   font-family: Lucida Handwriting;
+    margin-top: 5px;
+    position: relative;
+    font-size: small;
+}
+.facilities .col-1 p{
+    text-align: left;
+   
+    margin-top: 5px;
+    position: relative;
+}
+.facilities .col-1 button{
+
+    background: brown;
+    color: white;
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    margin: 20px 0;
+    padding: 8px 16px;
+    font-weight: 900;
+    border-radius: 12px;
+    
+    
+    
+}
+.facilities .col-1 button:hover{
+    color:  rgb(22, 7, 53); 
+    background: rgb(158, 243, 46);
+}
+
+
+
+/*-----events-------*/
+
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+.title{
+    text-align: center;
+    font-size: 4vmin;
+    color: whitesmoke;
+}
+
+.row-1{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.row-1 .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+    width: 150px;
+    height: 195px;
+  
+}
+.row-1 .col p{
+    font-size:13px ;
+   font-family: cursive;
+   font-weight: lighter;
+}
+.events .title h2{
+    font-size: 50px;
+    font-family :Lucida Handwriting;
+    color: whitesmoke;
+ }
+ .row-1 .col h4{
+   
+    font-weight: bold;
+
+ }
+ .row-1 .col img{
+    box-shadow: -1px 1px 5px 46px rgba(144,213,255,0.75);
+-webkit-box-shadow: -1px 1px 5px 46px rgba(144,213,255,0.75);
+-moz-box-shadow: -1px 1px 5px 46px rgba(144,213,255,0.75);
+
+ }
+ .events .title .col button{
+
+    background: #DAA520;
+    color: white;
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    margin: 20px 0;
+    padding: 8px 16px;
+    font-weight: 900;
+    border-radius: 12px;
+     
+ }
+ .events .title .col button:hover{
+    color:  whitesmoke;
+    background: brown;
+}
+
+/*----------feedback------*/
+.rows{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+   
+}
+ .review{
+   width: 25%;
+   height: 130px;
+    background-color: whitesmoke;
+   padding: 25px;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-around;
+    border-radius: 10px;
+    box-shadow: -2px -1px 5px 18px rgba(156,243,46,0.75);
+-webkit-box-shadow: -2px -1px 5px 18px rgba(156,243,46,0.75);
+-moz-box-shadow: -2px -1px 5px 18px rgba(156,243,46,0.75);
+
+}
+
+.review p{
+    font-family: cursive;
+    font-size: small;
+    color: 
+}
+
+.feedback  h2{
+    font-size: 50px;
+    font-family :Lucida Handwriting;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 15%;
+ }
+.footer{
+    background: #008080;
+     margin-top: 50px;
+   
+    padding: 70px 5%;
+    display: flex;
+    border-radius: 50px 60px 0px 0px;
+    justify-content: space-around;
+}
+.LOGO img{
+    
+    width: 120px;
+    height: 130px;
+    margin-top: 1%;
+    margin-left: -5%;
+
+}
+.footer h3{
+   
+    font-weight: bold;
+    font-family: serif;
+    color: whitesmoke;
+    font-size: 20px;
+ 
+    
+   
+}
+.newsletter  button{
+    background: rgb(22, 7, 53);
+    color: white;
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    margin: 20px 0;
+    padding: 8px 16px;
+    font-weight: 900;
+    
+
+}
+.newsletter  button:hover{
+    color: rgb(22, 7, 53);
+    background: whitesmoke;
+}
+.footer h4{
+   
+    font-weight: bold;
+    font-family: cursive;
+    color: whitesmoke;
+    
+   
+}
+.CONTACT-US{
+    margin: 10px;
+}
+.CONTACT-US i{
+    color: whitesmoke;
+}
